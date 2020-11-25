@@ -1,0 +1,95 @@
+html{
+    font-size: 62.5%;
+}
+
+
+/* Header */
+.site-header{
+    /*
+    background-image: url(../images/consultoria.jpg);
+    background-position: center center ;
+    background-size: cover;
+    height: 100vh;
+    min-height: 100px;
+    */
+background-color: lightblue;
+    background-position: center center ;
+    background-size: cover;
+    height: 15vh;
+    min-height: 100px;
+
+}
+.contenedor-menu1{
+    max-width: 1500px;
+    margin: 0 auto 0 auto;
+}
+
+.contenedor-menu1 a{
+    font-size: 20px;
+}
+
+.header-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedor-menu2{
+    /*align-items: flex-start;/* Center*/
+    display: flex;
+justify-self: center;
+    padding: 30px;
+    text-decoration: none;
+    
+}
+.menu-navegation{
+    display: flex;
+    background-color: lawngreen;
+    align-items: flex-start;/* Center*/
+    justify-content: space-evenly;
+    margin:90px 0px 10px 90px ;
+    text-decoration: none;
+}
+
+.menu-navegation a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+/*Pseudo Selector*/
+.menu-navegation a:hover{
+    color:#0069f3;
+    font-size: 30px;
+}
+.menu-navegation a:last-of-type{
+    margin: 0;
+}
+
+body{
+    background-color: turquoise;
+}
+
+
+header{
+/*
+    margin: auto auto;
+    height: 300px;
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+*/
+}
+
+a{
+    color: purple ;
+    text-decoration: none;
+    font-size: 19px;
+    margin-right: 30px;
+}
+

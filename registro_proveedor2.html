@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Registro Proveedor</title>
+</head>
+<header>
+	<h1>WYJI</h1>
+	<div style="text-align: right"><img src="ofer.png" class="imagen" /></div>
+</header>
+<body background="Fondos/este.jpg">
+	<button class="botons" onclick="location.href='tabla_proveedor.php'">Atras</button>
+  <section class="form-register">
+    <h4>Registrar Proveedor</h4>
+      <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" required>
+      <input class="controls" type="text" name="apematerno" id="apepaterno" placeholder="Ingrese su Apellido Paterno" required>
+	    <input class="controls" type="text" name="apellidos" id="apematerno" placeholder="Ingrese su Apellido Materno" required>
+      <input class="controls" type="tel" name="tel_proveedor" id="tel_proveedor" placeholder="Telefono Proveedor" required>
+      <input class="controls" type="text" name="empresa" id="Empresa" placeholder="Empresa" required>
+      <input class="controls" type="tel" name="tel_empresa" id="tel_empresa" placeholder="Telefono Empresa" required>
+      <input class="controls" type="text" name="Direccion" id="Direccion" placeholder="Direccion Empresa" required>
+      <input class="controls" type="text" name="Correo" id="Correo" placeholder="Correo electronico de la empresa"required>
+      <h3>Entrega</h3>
+      <input class="controls" type=date name=fechaentrega>
+    
+      <input class="botons" type="submit" value="Registrar">
+      <button class="botons" onclick="location.href='tabla_proveedor.php'">Cancelar</button>
+ 
+  </section>
+
+</body>
+</html>

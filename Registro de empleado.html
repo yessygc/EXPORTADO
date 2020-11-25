@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Registro del empleado</title>
+</head>
+<header>
+  <h1>WYJI</h1>
+  <div style="text-align: right"><img src="ofer.png" class="imagen" /></div>
+</header>
+<body background="Fondos/este.jpg">
+	<button class="botons" onclick="location.href='tabla_empleado.html'">Atras</button>
+  <section class="form-register">
+    <h4>Registro empleado</h4>
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido Paterno">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido Materno">
+    <h3>Fecha de nacimiento</h3>
+      <input class="controls" type=date name=nacimiento>
+    <h3>Sexo</h3>
+      <tp>Hombre</tp>
+         <input type=radio value="Hombre" name=sexo>	
+      <tp>Mujer</tp>
+        <input type=radio value="Mujer" name=sexo>
+    <input class="controls" type=text name=curp placeholder="CURP">	
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <input class="controls" type=tel name=telefono placeholder="Numero telefonico">						
+    <input class="controls" type=text name=direccion placeholder="Direccion">
+    <input class="controls" type="text" name="Poblacion" placeholder="Poblacion">	
+    
+    
+    <button class="botons" onclick="location.href= 'Confirmar empleado.html'"> Registrar </button>
+    <button class="botons" onclick="location.href='tabla_empleado.html'">Cancelar</button>
+    
+  </section>
+
+</body>
+</html>
